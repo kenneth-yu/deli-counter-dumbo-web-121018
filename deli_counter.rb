@@ -8,7 +8,7 @@ def line (katz_deli)
     while counter < katz_deli.size
       current_line = "The line is currently: "
       current_line = current_line + counter + 1 + '. ' + katz_deli[counter]
-      #counter++
+      counter++
     end
     puts current_line
   end
